@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trần Anh Trường - Cloud & DevOps Engineer Portfolio</title>
+  
+  <meta name="description" content="Junior Cloud & DevOps Engineer chuyên về AWS, Azure, Docker, Kubernetes, CI/CD. Kinh nghiệm triển khai hạ tầng đám mây và tự động hóa.">
+  <meta name="keywords" content="Cloud Engineer, DevOps, AWS, Azure, Docker, Kubernetes, CI/CD, Infrastructure as Code, Terraform">
+  <meta name="author" content="Trần Anh Trường">
+  
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.png" alt="Trần Anh Trường" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Trần Anh Trường">Trần Anh Trường</h1>
+          <p class="title">Junior Cloud & DevOps Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Hiển thị liên hệ</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:trantruong21.work@gmail.com" class="contact-link">trantruong21.work@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/tr%C6%B0%E1%BB%9Dng-tr%E1%BA%A7n-494a35275/" class="contact-link">My LinkedIn</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+        <!-- TECH STACK SLIDER -->
+    <section class="tech-slider">
+      <div class="slider-container">
+        <div class="slider-track">
+          <div class="tech-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS">
+            <span>AWS</span>
+          </div>
+          <!-- <div class="tech-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/AWS_Simple_Icons_AWS_EC2.svg" alt="EC2">
+            <span>EC2</span>
+          </div> -->
+          <div class="tech-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Amazon-S3-Logo.svg" alt="S3">
+            <span>S3</span>
+          </div>
+          <!-- <div class="tech-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/AWS_Simple_Icons_AWS_RDS.svg" alt="RDS">
+            <span>RDS</span>
+          </div>
+          <div class="tech-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/AWS_Simple_Icons_AWS_Lambda.svg" alt="Lambda">
+            <span>Lambda</span>
+          </div>
+          <div class="tech-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_CloudWatch_Logo.svg" alt="CloudWatch">
+            <span>CloudWatch</span>
+          </div> -->
+          <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
+            <span>Azure</span>
+          </div>
+          <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+            <span>Docker</span>
+          </div>
+          <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+            <span>Kubernetes</span>
+          </div>
+          <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform">
+            <span>Terraform</span>
+          </div>
+          <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus">
+            <span>Prometheus</span>
+          </div>
+          <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana">
+            <span>Grafana</span>
+          </div>
+          <div class="tech-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+            <span>Jenkins</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Giới thiệu</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Kinh nghiệm</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Kỹ năng</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Chứng chỉ</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Liên hệ</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="giới thiệu">
+
+        <header>
+          <h2 class="h2 article-title">Giới thiệu</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Xin chào! Tôi là <strong>Trần Anh Trường</strong>, một Junior Cloud & DevOps Engineer với hơn 1 năm kinh nghiệm sau tốt nghiệp. 
+            Tôi tốt nghiệp Cử nhân Công nghệ Thông tin tại Học viện Hàng không Việt Nam và đang theo học Thạc sĩ.
+          </p>
+
+          <p>
+            Tôi có kinh nghiệm trong môi trường Multi-Cloud với kinh nghiệm thực tế trên AWS và Azure, có kỹ năng network, cloud computing, 
+            servers, databases và containerization. Hiện tại, tôi đang làm việc tại CT Group với vai trò Cloud Engineer.
+          </p>
+
+          <p>
+            Trong chương trình AWS First Cloud Journey, tôi đã có cơ hội làm diễn giả trình bày về các chủ đề AWS IoT Service dưới sự hướng dẫn 
+            của AWS Head of SA - Mr. Nguyen Gia Hưng và AWS Security SA - Mr. Taiki Đặng.
+            <a href="https://www.linkedin.com/posts/tr%C6%B0%E1%BB%9Dng-tr%E1%BA%A7n-211202-dev_aws-fcj-community-day-aws-iot-core-activity-7330089808947531779-V2AU" target="_blank" class="contact-link">Xem bài trình bày AWS IoT Core tại đây.</a>
+          </p>
+        </section>
+
+        <!-- SERVICE -->
+        <section class="service">
+
+          <h3 class="h3 service-title">Chuyên môn</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-cloud.svg" alt="cloud icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Infrastructure</h4>
+                <p class="service-item-text">
+                  Thiết kế và triển khai hạ tầng đám mây trên AWS và Azure với focus vào scalability và cost optimization.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="devops icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps & CI/CD</h4>
+                <p class="service-item-text">
+                  Xây dựng và quản lý CI/CD pipelines, containerization với Docker và Kubernetes orchestration.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-monitor.svg" alt="monitoring icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Monitoring & Logging</h4>
+                <p class="service-item-text">
+                  Triển khai hệ thống monitoring và logging với Prometheus, Grafana, CloudWatch để đảm bảo system reliability.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-security.svg" alt="security icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Security</h4>
+                <p class="service-item-text">
+                  Implement security best practices với AWS Security Groups, WAF và access control management.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Đánh giá từ Mentor</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.jpg" alt="AWS SA" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mr. Nguyen Gia Hung</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Trường là một engineer trẻ có tiềm năng lớn trong lĩnh vực Cloud. Khả năng học hỏi và áp dụng kiến thức AWS của em rất ấn tượng.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Security SA" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mr. Taiki Dang</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Excellent understanding of cloud security principles. Trường shows great potential in implementing secure cloud architectures.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="kinh nghiệm">
+
+        <header>
+          <h2 class="h2 article-title">Kinh nghiệm</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Kinh nghiệm làm việc</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cloud Engineer</h4>
+              <span>April 2025 — Present</span>
+              <p class="timeline-text">
+                <strong>CT GROUP - Ho Chi Minh City</strong><br>
+                • Giám sát và bảo trì hệ thống compute, storage và containerized trên AWS và Azure production environments<br>
+                • Vận hành Kubernetes workloads trên Azure Kubernetes Service (AKS)<br>
+                • Xử lý incident management và troubleshooting production issues<br>
+                • Hỗ trợ cost optimization, đạt được mức giảm chi phí ~15-25%<br>
+                • Xây dựng Daily report tool từ Jira đến MS Teams
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AWS First Cloud Journey Author</h4>
+              <span>October 2024 — Present</span>
+              <p class="timeline-text">
+                <strong>AWS First Cloud Journey - Ho Chi Minh City</strong><br>
+                • Thực hiện technical sessions về AWS IoT Core<br>
+                • Vận hành và giám sát AWS compute và storage services (EC2, EBS, S3, Auto Scaling)<br>
+                • Hỗ trợ containerized workloads với Docker và Amazon EKS<br>
+                • Thực hành cloud monitoring và logging với CloudWatch
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Học vấn</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cử nhân Công nghệ Thông tin</h4>
+              <span>2022 — 2025</span>
+              <p class="timeline-text">
+                Học viện Hàng không Việt Nam - GPA: 3.1/4.0<br>
+                Học bổng Xuất sắc Học tập<br>
+                Giải thưởng Sinh viên 5 tốt cấp Học viện<br>
+                Giải thưởng Sinh viên 5 tốt cấp Khoa<br>
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+        
+      </article>
+
+      <!-- SKILLS -->
+      <article class="skills" data-page="kỹ năng">
+
+        <header>
+          <h2 class="h2 article-title">Kỹ năng</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="cloud-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Cloud Platforms</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AWS</h4>
+              <p class="timeline-text">
+                EC2, VPC, S3, RDS, DynamoDB, IoT Core, Lambda, IAM, CloudWatch, CloudTrail, Network
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Azure</h4>
+              <p class="timeline-text">
+                Virtual Machines, ACR, AKS
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="settings-outline"></ion-icon>
+            </div>
+            <h3 class="h3">DevOps & Containerization</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Virtualization</h4>
+              <p class="timeline-text">
+                Docker, K8S (AKS, EKS), VMWare
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CI/CD</h4>
+              <p class="timeline-text">
+                Bamboo, Gitlab CI, ArgoCD (Basic)
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Infrastructure Automation</h4>
+              <p class="timeline-text">
+                Terraform, Pulimi (Basic)
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="analytics-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Monitoring</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Monitoring Tools</h4>
+              <p class="timeline-text">
+                Prometheus, Grafana, Mimir, CloudWatch, CloudTrail, Log & Metrics Monitoring
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Security</h4>
+              <p class="timeline-text">
+                AWS SecurityGroup, AWS WAF
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="server-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Database & Storage</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Database & Storage</h4>
+              <p class="timeline-text">
+                Postgres, MySQL, DynamoDB, RDS, EBS, S3
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!-- CERTIFICATES -->
+      <article class="certificates" data-page="chứng chỉ">
+
+        <header>
+          <h2 class="h2 article-title">Chứng chỉ & Thành tích</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="aws">
+              <div class="content-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="cloud-outline"></ion-icon>
+                  </div>
+                </figure>
+                <h3 class="project-title">AWS Solution Architect Associate</h3>
+                <p class="project-category">In Progress</p>
+                <p class="project-description">AWS SAA-C03</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aws">
+              <div class="content-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="school-outline"></ion-icon>
+                  </div>
+                </figure>
+                <h3 class="project-title">AWS Fundamentals</h3>
+                <p class="project-category">Completed</p>
+                <p class="project-description">Solutions, Network Concepts, Economics</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="education">
+              <div class="content-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="trophy-outline"></ion-icon>
+                  </div>
+                </figure>
+                <h3 class="project-title">University Prize</h3>
+                <p class="project-category">Academic Achievement</p>
+                <p class="project-description">Giải thưởng Sinh viên 5 tốt</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="education">
+              <div class="content-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="ribbon-outline"></ion-icon>
+                  </div>
+                </figure>
+                <h3 class="project-title">Academic Excellence Scholarship</h3>
+                <p class="project-category">Vietnam Aviation Academy</p>
+                <p class="project-description">Học bổng Xuất sắc Học tập</p>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="language">
+              <div class="content-card">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="language-outline"></ion-icon>
+                  </div>
+                </figure>
+                <h3 class="project-title">TOEIC 650+</h3>
+                <p class="project-category">English Proficiency</p>
+                <p class="project-description">Chứng chỉ Tiếng Anh TOEIC</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="liên hệ">
+
+        <header>
+          <h2 class="h2 article-title">Liên hệ</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4326002406087!2d106.69017831533309!3d10.776889992319095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4b3330bcc9%3A0x2a4d4b3b0c7b8c8d!2sHo%20Chi%20Minh%20City%2C%20Vietnam!5e0!3m2!1sen!2s!4v1640995200000!5m2!1sen!2s" width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Gửi tin nhắn</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Họ và tên" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Tin nhắn của bạn" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Gửi tin nhắn</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
